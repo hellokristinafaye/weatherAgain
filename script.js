@@ -5,7 +5,10 @@ async function checkWeather() {
     const response = await fetch(apiUrl + `&appid=${apiKey}`);
     var data = await response.json();
 
+    // to display the weather data in the console
     console.log(data);
+    // to display the weather data bits in the app via querySelector
+    document.querySelector(".city").innerHTML = data.name;
 }
 
 checkWeather()
