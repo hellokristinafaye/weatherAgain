@@ -31,6 +31,9 @@ async function checkWeather(city) {
     }
     // clears searchbox upon search! 
     searchBox.value = "";
+
+    // displays on search
+    document.querySelector(".weather").style.display = "block";
 }
 // to send input box value to the checkWeather function (and run it) when the user clicks the button
 searchBtn.addEventListener("click", () => {
