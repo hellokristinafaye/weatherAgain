@@ -85,4 +85,7 @@ p {
     margin: 0;
 }
 
+.weather {
+    display: none;
+}
 
