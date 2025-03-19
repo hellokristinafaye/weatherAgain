@@ -23,3 +23,4 @@ Future Development:
 - change the weather icon if statements to a switch case
 - make the input clear upon search??
   - this works!
+- Toggle between metric and imperial
