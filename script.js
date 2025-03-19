@@ -29,6 +29,8 @@ async function checkWeather(city) {
     } else if (data.weather[0].main == "Mist") {
         weatherIcon.src = "images/mist.png";
     }
+    // clears searchbox upon search! 
+    searchBox.value = "";
 }
 // to send input box value to the checkWeather function (and run it) when the user clicks the button
 searchBtn.addEventListener("click", () => {

@@ -22,3 +22,4 @@ Future Development:
 - I probably won't develop this page any further, but may reference it in case future project require similar features.
 - change the weather icon if statements to a switch case
 - make the input clear upon search??
+  - this works!
