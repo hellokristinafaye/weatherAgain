@@ -9,6 +9,7 @@ async function checkWeather() {
     console.log(data);
     // to display the weather data bits in the app via querySelector
     document.querySelector(".city").innerHTML = data.name;
+    document.querySelector(".temp").innerHTML = data.main.temp;
 }
 
 checkWeather()
