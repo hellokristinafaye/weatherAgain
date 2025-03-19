@@ -13,6 +13,8 @@ Features:
 
 Notes:
 
+- The general workflow seems to be content, styling, then placeholder styling for dynamic things, and THEN adding the JS and API for functionality.
+
 Challenges:
 
 Future Development:
