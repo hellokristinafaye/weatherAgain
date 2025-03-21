@@ -56,6 +56,9 @@ body {
 .switch label {
     color: #fff;
 }
+.switch {
+    margin-bottom: 10px;
+}
 
 .weather h1 {
     font-size: 80px;
