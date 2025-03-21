@@ -9,7 +9,6 @@ const weatherIcon = document.querySelector(".weather-icon");
 
 // dark/light mode code 
 var mySwitch = document.getElementById("my-switch");
-
 mySwitch.onclick = function () {
 //    tests onclick happening
     console.log("Click!")
@@ -143,7 +142,7 @@ async function checkWeatherImperial(city) {
 
 
 
-// // to send input box value to the checkWeather function (and run it) when the user clicks the button
+// // // to send input box value to the checkWeather function (and run it) when the user clicks the button
 // searchBtn.addEventListener("click", () => {
 //     checkWeather(searchBox.value);
 // })
