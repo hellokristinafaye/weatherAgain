@@ -10,17 +10,15 @@ const weatherIcon = document.querySelector(".weather-icon");
 var mySwitch = document.getElementById("my-switch");
 
 mySwitch.onclick = function () {
-    // I believe .toggle() actually switches the class list content?? 
-    // document.body.classList.toggle("dark-theme");
+//    tests onclick happening
     console.log("Click!")
 
-    // this conditional statement just changes the display of the button based on the above classList changes
-    // if (document.body.classList.contains("dark-theme")) {
-    //     icon.src = "icons/sun.png";
-    // } else {
-    //     icon.src = "icons/moon.png";
-
-    // }
+// functionality of the switch! 
+    if (mySwitch.checked) {
+        console.log("Imperial")
+    } else {
+        console.log("Metric");
+    }
 }
 // end dark/light mode code
 
