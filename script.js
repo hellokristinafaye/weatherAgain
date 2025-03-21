@@ -42,13 +42,12 @@ async function checkWeather(city) {
         document.querySelector(".error").style.display = "none";
 
     }
-        
-
 }
 // to send input box value to the checkWeather function (and run it) when the user clicks the button
 searchBtn.addEventListener("click", () => {
     checkWeather(searchBox.value);
 })
+
 // enables hitting "Enter" to run the search
 searchBox.addEventListener("keypress", 
     function (event) {
