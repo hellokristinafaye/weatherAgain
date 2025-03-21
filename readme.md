@@ -8,12 +8,17 @@ Technologies Used:
 - CSS
 - JavaScript
 - Open Weather API
+- Materialize
+  - CDN
+  - Switch component
+  - JS from scratch for switch funcitonality
 
 Features:
 
 Notes:
 
 - The general workflow seems to be content, styling, then placeholder styling for dynamic things, and THEN adding the JS and API for functionality.
+- Oh and we used Materialize for the first time in a long time, specifically a switch, AND found out how to use JS to add functionality to that switch (the console logs were successful so I’m counting it!
 
 Challenges:
 
