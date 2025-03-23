@@ -7,6 +7,15 @@ const searchBtn = document.querySelector(".search button");
 const weatherIcon = document.querySelector(".weather-icon");
 
 
+// so the return button works inside the input box
+// UM... we gotta revisit the code below because THIS event listener works, but the ones in place inside the functions (uncommented)don't really work???? and are slightly different so that might be hindering the functionality there. (3/22/25)
+// document.addEventListener("keydown", event => {
+//     if (event.key === "Enter") {
+//         checkWeather(searchBox.value);
+//         event.preventDefault();
+//     }
+// })
+
 // dark/light mode code 
 var mySwitch = document.getElementById("my-switch");
 mySwitch.onclick = function () {
